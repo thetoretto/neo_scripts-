@@ -1,8 +1,11 @@
 import os
 import shutil
 
-source_folder = r'D:\123\test'
-destination_folder = r'D:\123\organized'
+# source_folder = r'D:\123\test'
+# destination_folder = r'D:\123\organized'
+
+source_folder = input("Enter the source folder: ")
+destination_folder = input("Enter the destination folder: ")
 
 # Create destination folders if they don't exist
 folders = ['2009-2010', '2010-2011', '2011-2012', '2012-2013',

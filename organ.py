@@ -11,16 +11,16 @@ os.makedirs(destination_folder, exist_ok=True)
 file_mappings = {
     'OP10  ': '2009-2010',
     'OP11  ': '2010-2011',
-    'OP13  ': '2011-2012',
-    'OP14  ': '2012-2013',
-    'OP15  ': '2013-2014',
-    'OP16  ': '2014-2015',
-    'OP17  ': '2015-2016'
+    'OP12  ': '2011-2012',
+    'OP13  ': '2012-2013',
+    'OP14  ': '2013-2014',
+    'OP15  ': '201-2015',
+    'OP16  ': '2015-2016'
 }
 
 # Iterate through the files in the source folder
 for file_name in os.listdir(source_folder):
-    if file_name.endswith('.txt'):
+    if file_name.endswith('.pdf'):
         # Extract the file prefix
         file_prefix = file_name[:6]
 
